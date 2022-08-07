@@ -1,0 +1,13 @@
+Rradha e punes: 
+1-> Kapim screenshot template
+2-> E ndajme ne containers 
+3-> Fusim container 1 nga 1 ne html
+4-> Fusim elementet e cdo container ne html
+5-> Stilojme containerin
+      a) width (zakonisht %)
+      b) spacing (margin & padding)
+      c) positioning (pozicionojme elementet e container me flex)
+
+6-> Stilojme elementet brenda container
+      a) spacing (margin & padding)
+      b) font 

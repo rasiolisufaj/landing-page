@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+hr {
+  border: 1px solid #f4f4f4;
+  width: 100%;
+  margin: 30px 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.navbar a {
+  transition: 0.2s color ease-in-out;
+}
+
+.navbar a:hover {
+  color: aqua;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.logo:hover .textbg {
+  background: aqua;
+}
+
+/* .navbar .textbg:hover {
+  background: aqua;
+  color: #333;
+  transition: 0.2s background ease-in-out;
+} */
+
+.navbar .textbg {
+  background: #fff;
+  padding: 5px 10px;
+  margin-right: 5px;
+  color: rgb(3, 3, 65);
+  font-weight: 500;
+  transition: 0.2s background ease-in-out;
+}
+
+#navbar i {
+  margin-left: 5px;
+}
+
+/* Hero */
+.hero {
+  background: url("./images/hero.jpg") no-repeat center center/cover;
+  height: 80vh;
+  color: #fff;
+  position: relative;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding: 0 10rem;
+}
+
+.container > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  letter-spacing: 0.2rem;
+}
+
+.container h1 {
+  font-size: 3.25rem;
+}
+
+.container .btn {
+  padding: 10px 20px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 0 10px;
+  transition: 0.2s color ease-in-out;
+  font-size: 1rem;
+}
+
+.container .btn:hover {
+  color: aquamarine;
+  border: 1px solid aquamarine;
+  transition: 0.2s color ease-in-out;
+  cursor: pointer;
+}
+
+.container p {
+  width: 50%;
+  font-size: 0.9rem;
+}
+
+.hero * {
+  z-index: 10;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(5, 21, 40, 0.5);
+}
+
+/* SECTION PERSONS */
+.persons.flex-items .column-1 {
+  width: 70%;
+}
+
+.persons .column {
+  height: 40vh;
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+
+#project1 {
+  background: url("./images/pic01.jpg") no-repeat center center/cover;
+  color: white;
+}
+
+.content {
+  background-color: rgba(0, 255, 255, 0.378);
+  transition: background 0.2s ease-in-out;
+}
+.content:hover {
+  background-color: rgba(0, 0, 0, 0.304);
+  cursor: pointer;
+}
+
+.persons .column .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding: 2em 4em;
+}
+
+.persons .column .content hr {
+  width: 50%;
+}
+
+.persons .column-1:hover {
+}
+
+.persons .column-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #8d82c4;
+  opacity: 0.8;
+}
+
+.persons .column-2 {
+  background: url("./images/pic02.jpg") no-repeat center center/cover;
+}

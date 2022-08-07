@@ -153,8 +153,18 @@ hr {
 }
 
 /* SECTION PERSONS */
-.persons.flex-items .column-1 {
-  width: 70%;
+.column-1 {
+  width: 40%;
+  height: 50vh;
+  position: relative;
+  color: #fff;
+}
+
+.column-2 {
+  width: 60%;
+  height: 50vh;
+  position: relative;
+  color: #fff;
 }
 
 .persons .column {
@@ -164,7 +174,7 @@ hr {
   color: #fff;
 }
 
-.column.column-1 {
+.column-1 {
   background: url("./images/pic01.jpg") no-repeat center center/cover;
   color: white;
 }
@@ -199,7 +209,7 @@ hr {
   cursor: pointer;
 }
 
-.persons .column .content {
+.persons .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -208,7 +218,7 @@ hr {
   padding: 2em 4em;
 }
 
-.persons .column .content hr {
+.persons .content hr {
   width: 50%;
 }
 

@@ -153,24 +153,19 @@ hr {
 }
 
 /* SECTION PERSONS */
-.column-1 {
+.column-1,
+.column-4,
+.column-5 {
   width: 40%;
   height: 50vh;
-  position: relative;
   color: #fff;
 }
 
-.column-2 {
+.column-2,
+.column-3,
+.column-6 {
   width: 60%;
   height: 50vh;
-  position: relative;
-  color: #fff;
-}
-
-.persons .column {
-  height: 50vh;
-  width: 100%;
-  position: relative;
   color: #fff;
 }
 
@@ -204,11 +199,6 @@ hr {
   margin-top: 10px;
 }
 
-.project1-link:hover {
-  background-color: rgba(0, 0, 0, 0.304);
-  cursor: pointer;
-}
-
 .persons .content {
   display: flex;
   flex-direction: column;
@@ -230,6 +220,43 @@ hr {
   background-color: #8d82c4;
 }
 
-.project2-link:hover {
-  background-color: rgba(0, 0, 0, 0.304);
+.project1-link:hover,
+.project2-link:hover,
+.project3-link:hover,
+.project4-link:hover,
+.project5-link:hover,
+.project6-link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.persons .column-3 {
+  background: url("./images/pic03.jpg") no-repeat center center/cover;
+}
+
+.project3-link {
+  background-color: #ec8d81;
+}
+
+.persons .column-4 {
+  background: url("./images/pic04.jpg") no-repeat center center/cover;
+}
+
+.project4-link {
+  background-color: #e7b788;
+}
+
+.persons .column-5 {
+  background: url("./images/pic05.jpg") no-repeat center center/cover;
+}
+
+.project5-link {
+  background-color: #8ea9e8;
+}
+
+.persons .column-6 {
+  background: url("./images/pic06.jpg") no-repeat center center/cover;
+}
+
+.project6-link {
+  background-color: #87c5a4;
 }

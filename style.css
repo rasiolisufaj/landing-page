@@ -116,18 +116,20 @@ hr {
 }
 
 .container .btn {
-  padding: 10px 20px;
+  padding: 15px 25px;
   background: transparent;
   color: #fff;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   margin: 0 10px;
   transition: 0.2s color ease-in-out;
   font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
 }
 
 .container .btn:hover {
   color: aquamarine;
-  border: 1px solid aquamarine;
+  border: 2px solid aquamarine;
   transition: 0.2s color ease-in-out;
   cursor: pointer;
 }
@@ -254,4 +256,27 @@ hr {
 
 .project6-link {
   background-color: #87c5a4;
+}
+
+/* Massa libero */
+#massa-libero .container {
+  background-color: #2a304a;
+  height: 50vh;
+  padding: 0 10rem;
+}
+
+#massa-libero .container h3 {
+  font-size: 35px;
+  margin: 0;
+}
+
+#massa-libero .container hr {
+  width: 20%;
+  margin: 10px 0;
+}
+
+#massa-libero .container p {
+  font-size: 18px;
+  width: 100%;
+  padding: 2rem 0;
 }

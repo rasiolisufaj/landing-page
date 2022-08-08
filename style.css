@@ -261,8 +261,8 @@ hr {
 /* Massa libero */
 #massa-libero .container {
   background-color: #2a304a;
-  height: 50vh;
-  padding: 0 10rem;
+  height: 55vh;
+  padding: 0 8rem;
 }
 
 #massa-libero .container h3 {
@@ -279,4 +279,8 @@ hr {
   font-size: 18px;
   width: 100%;
   padding: 2rem 0;
+}
+
+#massa-libero .container .btn {
+  margin: 0;
 }

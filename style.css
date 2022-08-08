@@ -208,6 +208,10 @@ hr {
   padding: 2em 4em;
 }
 
+.content:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .persons .content hr {
   width: 50%;
 }
@@ -218,15 +222,6 @@ hr {
 
 .project2-link {
   background-color: #8d82c4;
-}
-
-.project1-link:hover,
-.project2-link:hover,
-.project3-link:hover,
-.project4-link:hover,
-.project5-link:hover,
-.project6-link:hover {
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .persons .column-3 {

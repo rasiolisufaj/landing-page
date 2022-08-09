@@ -284,3 +284,82 @@ hr {
 #massa-libero .container .btn {
   margin: 0;
 }
+
+/* Contact */
+#contact {
+  height: 80vh;
+  background: #242943;
+  border: 2px solid greenyellow;
+  display: flex;
+}
+
+#form {
+  border: 2px solid red;
+  height: 100%;
+  margin: 10px;
+}
+
+.row-1 {
+  border: 2px yellow solid;
+  margin: 10px;
+  display: flex;
+}
+
+.row-1 .form-column {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border: 2px pink solid;
+}
+
+#contact .form-message {
+  border: 2px aqua solid;
+}
+
+.form-message {
+  margin: 0 10px;
+}
+
+.row-2 {
+  margin: 10px;
+  border: 2px orange solid;
+}
+
+#contact .row-2 .btn {
+  padding: 15px 25px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  margin: 0 10px;
+  transition: 0.2s color ease-in-out;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+#info {
+  border: 2px solid red;
+  width: 100%;
+  margin: 10px;
+}
+
+#info #email,
+#info #phone,
+#info #address {
+  border: 2px yellowgreen solid;
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#info .info-left {
+  border: 2px solid red;
+  margin: 10px;
+}
+
+#info .info-right {
+  border: 2px aqua solid;
+  margin: 10px 10px 10px 0px;
+}

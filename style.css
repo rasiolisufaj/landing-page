@@ -289,59 +289,77 @@ hr {
 #contact {
   height: 80vh;
   background: #242943;
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
   display: flex;
 }
 
 #form {
   border: 2px solid red;
   height: 100%;
-  margin: 10px;
+  /* margin: 10px; */
+  padding: 3rem 2rem 3rem 3rem;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-column label {
+  margin-bottom: 10px;
+}
+
+.form-column input,
+.form-column textarea {
+  background: #2a2f4a;
+  border: none;
+}
+
+.form-column input {
+  padding: 5px 10px;
+}
+
+.form-column input:focus,
+.form-column textarea:focus {
+  outline: none;
+  border-color: #6fc3df;
 }
 
 .row-1 {
-  border: 2px yellow solid;
-  margin: 10px;
   display: flex;
-}
-
-.row-1 .form-column {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  padding: 10px;
-  border: 2px pink solid;
-}
-
-#contact .form-message {
-  border: 2px aqua solid;
-}
-
-.form-message {
-  margin: 0 10px;
+  /* margin-bottom: 10px; */
 }
 
 .row-2 {
-  margin: 10px;
-  border: 2px orange solid;
+  margin-top: 20px;
 }
 
-#contact .row-2 .btn {
-  padding: 15px 25px;
-  background: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-  margin: 0 10px;
-  transition: 0.2s color ease-in-out;
-  font-size: 1rem;
-  font-weight: 500;
-  letter-spacing: 0.1rem;
+.row-2 .btn {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.row-2 .btn-light:hover {
+  background: #6fc3df;
+  color: #242943;
+  transition: 0.2s all ease-in-out;
 }
 
 #info {
   border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   width: 100%;
-  margin: 10px;
+  height: 100%;
 }
 
 #info #email,
@@ -350,8 +368,10 @@ hr {
   border: 2px yellowgreen solid;
   margin: 10px;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
 }
 
 #info .info-left {

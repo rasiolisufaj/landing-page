@@ -399,10 +399,66 @@ hr {
   margin: 10px 10px 10px 0px;
 }
 
+.info-right p {
+  font-size: 1.2rem;
+}
+
 .info-right h3 {
   margin-bottom: 10px;
 }
 
-footer {
+/* Footer */
+
+#footer {
   background: #242943;
+  height: 30vh;
+  display: flex;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  padding: 4rem;
+  margin: 0 4rem;
+}
+
+.copyright li a {
+  border-bottom: 1px dotted #858cb4;
+  transition: 0.2s all ease-in-out;
+}
+
+.copyright li a:hover {
+  border: none;
+  color: #6fc3df;
+  transition: 0.2s all ease-in-out;
+}
+
+.icons,
+.copyright {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.icons li {
+  padding-right: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.copyright li a {
+  text-decoration: dotted 1px #858cb4;
+}
+
+.copyright li {
+  padding: 1rem 0.5rem 0 0;
+}
+
+.copyright,
+.copyright a {
+  font-size: 16px;
+  color: #858cb4;
 }

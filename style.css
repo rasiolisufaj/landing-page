@@ -169,12 +169,7 @@ hr {
   color: white;
 }
 
-.project1-link {
-  background-color: #6fc3df;
-}
-
 .content {
-  opacity: 0.8;
   transition: background 0.3s ease-in-out;
   text-align: left;
 }
@@ -212,12 +207,16 @@ hr {
   width: 50%;
 }
 
+.project1-link {
+  background-color: rgba(111, 195, 223, 0.8);
+}
+
 .persons .column-2 {
   background: url("./images/pic02.jpg") no-repeat center center/cover;
 }
 
 .project2-link {
-  background-color: #8d82c4;
+  background-color: rgba(141, 130, 196, 0.8);
 }
 
 .persons .column-3 {
@@ -225,7 +224,7 @@ hr {
 }
 
 .project3-link {
-  background-color: #ec8d81;
+  background-color: rgba(236, 141, 129, 0.8);
 }
 
 .persons .column-4 {
@@ -233,7 +232,7 @@ hr {
 }
 
 .project4-link {
-  background-color: #e7b788;
+  background-color: rgba(231, 183, 136, 0.8);
 }
 
 .persons .column-5 {
@@ -241,7 +240,7 @@ hr {
 }
 
 .project5-link {
-  background-color: #8ea9e8;
+  background-color: rgba(142, 169, 232, 0.8);
 }
 
 .persons .column-6 {
@@ -249,7 +248,7 @@ hr {
 }
 
 .project6-link {
-  background-color: #87c5a4;
+  background-color: rgba(135, 197, 164, 0.8);
 }
 
 /* Massa libero */
@@ -455,84 +454,4 @@ hr {
 .copyright a {
   font-size: 16px;
   color: #858cb4;
-}
-
-/* Media Queries */
-@media (min-width: 737px) and (max-width: 980px) {
-  .hero {
-    height: 0%;
-  }
-
-  .navbar span {
-    font-size: 14px;
-  }
-
-  #navbar a {
-    font-size: 16px;
-    letter-spacing: 0.2rem;
-  }
-  #navbar i {
-    margin-left: 0;
-  }
-  .container {
-    padding: 10rem 3rem;
-  }
-  .container p {
-    font-weight: bold;
-    font-size: 12px;
-  }
-  .container .btn {
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 0.2rem;
-  }
-  #persons .column {
-    width: 50%;
-    height: 0%;
-  }
-
-  #persons .content {
-    padding: 4em;
-  }
-  #massa-libero .container {
-    height: 0%;
-    margin: 0;
-    padding: 4rem 3rem;
-  }
-  #massa-libero .container h3 {
-    font-size: 1.3em;
-  }
-  #massa-libero .container p {
-    font-weight: 400;
-  }
-  #contact {
-    flex-direction: column;
-    height: 0%;
-  }
-  #contact #form,
-  #contact #info {
-    width: 100%;
-  }
-  #footer {
-    height: 0%;
-  }
-  #footer .inner {
-    margin: 0 3rem;
-    padding: 3rem 0 0 0;
-  }
-  .inner .icons_light {
-    width: 35px;
-  }
-  .copyright,
-  .copyright a {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  .info-right p {
-    font-size: 1rem;
-  }
-
-  .info-right h3 {
-    font-size: 1.4rem;
-  }
 }

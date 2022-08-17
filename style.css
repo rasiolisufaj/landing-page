@@ -56,12 +56,6 @@ hr {
   background: aqua;
 }
 
-/* .navbar .textbg:hover {
-  background: aqua;
-  color: #333;
-  transition: 0.2s background ease-in-out;
-} */
-
 .navbar .textbg {
   background: #fff;
   padding: 5px 10px;
@@ -70,7 +64,6 @@ hr {
   transition: 0.2s background ease-in-out;
 }
 
-.navbar .textbg,
 .navbar span {
   font-size: 18px;
   font-weight: bold;
@@ -183,6 +176,7 @@ hr {
 .content {
   opacity: 0.8;
   transition: background 0.3s ease-in-out;
+  text-align: left;
 }
 
 .content h3 {
@@ -196,7 +190,7 @@ hr {
 
 .content p {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 0.7rem;
   letter-spacing: 0.2rem;
   margin-top: 10px;
 }
@@ -461,4 +455,84 @@ hr {
 .copyright a {
   font-size: 16px;
   color: #858cb4;
+}
+
+/* Media Queries */
+@media (min-width: 737px) and (max-width: 980px) {
+  .hero {
+    height: 0%;
+  }
+
+  .navbar span {
+    font-size: 14px;
+  }
+
+  #navbar a {
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+  }
+  #navbar i {
+    margin-left: 0;
+  }
+  .container {
+    padding: 10rem 3rem;
+  }
+  .container p {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .container .btn {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+  }
+  #persons .column {
+    width: 50%;
+    height: 0%;
+  }
+
+  #persons .content {
+    padding: 4em;
+  }
+  #massa-libero .container {
+    height: 0%;
+    margin: 0;
+    padding: 4rem 3rem;
+  }
+  #massa-libero .container h3 {
+    font-size: 1.3em;
+  }
+  #massa-libero .container p {
+    font-weight: 400;
+  }
+  #contact {
+    flex-direction: column;
+    height: 0%;
+  }
+  #contact #form,
+  #contact #info {
+    width: 100%;
+  }
+  #footer {
+    height: 0%;
+  }
+  #footer .inner {
+    margin: 0 3rem;
+    padding: 3rem 0 0 0;
+  }
+  .inner .icons_light {
+    width: 35px;
+  }
+  .copyright,
+  .copyright a {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .info-right p {
+    font-size: 1rem;
+  }
+
+  .info-right h3 {
+    font-size: 1.4rem;
+  }
 }

@@ -79,6 +79,19 @@
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
+  #persons .column {
+    width: 50%;
+    height: 0%;
+  }
+  #persons .content {
+    padding: 3em 1em;
+  }
+  #persons .content h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 736px) {
   .hero {
     height: 0%;
   }
@@ -120,16 +133,6 @@
     font-size: 12px;
     letter-spacing: 0.2rem;
     margin: 10px 0;
-  }
-  #persons .column {
-    width: 50%;
-    height: 0%;
-  }
-  #persons .content {
-    padding: 3em 1em;
-  }
-  #persons .content h3 {
-    font-size: 1.5rem;
   }
   #massa-libero .container {
     height: 0%;
@@ -182,50 +185,7 @@
     margin-bottom: 5px;
   }
 }
-
 @media (max-width: 480px) {
-  .hero {
-    height: 0%;
-  }
-  .navbar span {
-    font-size: 14px;
-  }
-
-  #navbar a {
-    font-size: 16px;
-    letter-spacing: 0.2rem;
-  }
-  #navbar i {
-    margin-left: 0;
-  }
-  hr {
-    margin: 20px 0;
-  }
-  .container {
-    padding: 3rem 1.5rem;
-  }
-  .container .flex-column {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .flex-column p {
-    width: 100%;
-    font-weight: bold;
-    font-size: 11px;
-    margin: 10px 0;
-  }
-  .container h1 {
-    font-size: 2rem;
-  }
-  .flex-column .btn,
-  #massa-libero .btn,
-  #contact .btn {
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 0.2rem;
-    margin: 10px 0;
-  }
   #persons .flex-items {
     flex-direction: column;
   }
@@ -236,56 +196,7 @@
   #persons .content {
     padding: 4em 1em;
   }
-  #massa-libero .container {
-    height: 0%;
-    margin: 0;
-    padding: 3rem 1.5rem;
-  }
-  #massa-libero .container hr {
-    width: 35%;
-  }
-  #massa-libero .container h3 {
-    font-size: 1em;
-  }
-  #massa-libero .container p {
-    font-size: 16px;
-    font-weight: 400;
-  }
-  #contact {
-    flex-direction: column;
-    height: 0%;
-  }
-  #contact .btn {
-    margin-right: 10px;
-  }
-  #contact #form {
-    width: 100%;
-    padding: 3rem 1.5rem;
-  }
-  #info {
-    width: 100%;
-  }
-  .info-right h3 {
-    font-size: 1.3rem;
-  }
-  .info-right p {
-    font-size: 16px;
-  }
-  #footer {
-    height: 0%;
-  }
-  #footer .inner {
-    margin: 0 2rem;
-    padding: 3rem 0 0 0;
-  }
-  .inner .icons_light {
-    width: 35px;
-  }
-  .copyright,
-  .copyright a {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
+
   .copyright {
     display: flex;
     flex-direction: column;

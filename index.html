@@ -15,8 +15,7 @@
   </head>
   <body>
     <div class="hero">
-      <div class="navbar">
-        <!-- <h4 class="logo">FORTY BY HTML 5 UP</h4> -->
+      <div class="navbar top" id="primary_navbar">
         <a href="index.html" class="logo"
           ><span class="textbg">FORTY</span> <span>BY HTML 5 UP</span>
         </a>
@@ -32,9 +31,9 @@
             A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP AND RELEASED UNDER
             THE CREATIVE COMMONS.
           </p>
-          <button class="btn">
+          <a href="#persons" class="btn" id="startBtn">
             GET STARTED <i class="fa-solid fa-arrow-right-long"></i>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -43,14 +42,18 @@
       <section id="persons">
         <div class="persons flex-items">
           <div class="column column-1">
-            <a href="#" class="content project1-link">
+            <a
+              href="https://rasiolisufaj.github.io/todo-list/"
+              class="content project1-link"
+              target="_blank"
+            >
               <h3>Aliquam</h3>
               <hr />
               <p>IPSUM DOLOR SIT</p>
             </a>
           </div>
           <div class="column column-2">
-            <a href="#" class="content project2-link">
+            <a href="landing.html" class="content project2-link">
               <h3>Tempus</h3>
               <hr />
               <p>FEUGIAT AMET TEMPUS</p>
@@ -59,14 +62,14 @@
         </div>
         <div class="persons flex-items">
           <div class="column column-3">
-            <a href="#" class="content project3-link">
+            <a href="landing.html" class="content project3-link">
               <h3>Magna</h3>
               <hr />
               <p>LOREM ETIAM NULLAM</p>
             </a>
           </div>
           <div class="column column-4">
-            <a href="#" class="content project4-link">
+            <a href="landing.html" class="content project4-link">
               <h3>Ipsum</h3>
               <hr />
               <p>NISL SED ALIQUAM</p>
@@ -75,14 +78,14 @@
         </div>
         <div class="persons flex-items">
           <div class="column column-5">
-            <a href="#" class="content project5-link">
+            <a href="landing.html" class="content project5-link">
               <h3>Consequat</h3>
               <hr />
               <p>IPSUM DOLOR SIT</p>
             </a>
           </div>
           <div class="column column-6">
-            <a href="#" class="content project6-link">
+            <a href="landing.html" class="content project6-link">
               <h3>Etiam</h3>
               <hr />
               <p>FEUGIAT AMET TEMPUS</p>
@@ -215,5 +218,6 @@
         </ul>
       </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>

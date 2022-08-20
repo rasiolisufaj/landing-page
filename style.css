@@ -12,6 +12,10 @@ textarea {
   line-height: 1.65;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -37,9 +41,16 @@ hr {
   text-align: center;
   height: 70px;
   width: 100%;
-  background: transparent;
+  background: #242943;
   color: #fff;
   padding: 0 30px;
+  position: fixed;
+  top: 0px;
+  transition: 0.5s;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 .navbar a {
@@ -127,9 +138,16 @@ hr {
   cursor: pointer;
 }
 
+.flex-column #startBtn {
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
 .container p {
   width: 50%;
   font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .hero * {

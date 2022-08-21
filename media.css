@@ -31,6 +31,9 @@
     width: 50%;
     height: 0%;
   }
+  #persons .project2-link {
+    padding: 2.32em 4em;
+  }
 
   #persons .content {
     padding: 4em;
@@ -186,6 +189,9 @@
   }
 }
 @media (max-width: 480px) {
+  .flex-items {
+    height: fit-content;
+  }
   #persons .flex-items {
     flex-direction: column;
   }

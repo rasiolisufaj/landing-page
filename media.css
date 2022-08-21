@@ -22,10 +22,14 @@
     font-weight: bold;
     font-size: 12px;
   }
-  .container .btn {
+  .container #startBtn {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.2rem;
+    padding: 0.5rem 1rem;
+  }
+  .flex-items {
+    height: 40vh;
   }
   #persons .column {
     width: 50%;
@@ -86,11 +90,25 @@
     width: 50%;
     height: 0%;
   }
+
+  .flex-items {
+    height: 40vh;
+  }
+  .container h1 {
+    padding-top: 2rem;
+  }
+
   #persons .content {
     padding: 3em 1em;
   }
   #persons .content h3 {
     font-size: 1.5rem;
+  }
+  .container #startBtn {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem 1rem;
   }
 }
 
@@ -201,6 +219,15 @@
   }
   #persons .content {
     padding: 4em 1em;
+  }
+  .container #startBtn {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem 1rem;
+  }
+  .container h1 {
+    padding-top: 2rem;
   }
 
   .copyright {

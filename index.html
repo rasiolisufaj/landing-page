@@ -10,51 +10,226 @@
     ></script>
     <link rel="stylesheet" href="utilities.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Forty</title>
+    <link rel="stylesheet" href="media.css" />
+    <title>Rasiol Isufaj | Landing Page</title>
   </head>
   <body>
     <div class="hero">
-      <div class="navbar">
-        <!-- <h4 class="logo">FORTY BY HTML 5 UP</h4> -->
+      <div class="navbar top" id="primary_navbar">
         <a href="index.html" class="logo"
-          ><span class="textbg">FORTY</span> <span>HTML 5 UP</span>
+          ><span class="textbg">RASIOL</span> <span>ISUFAJ</span>
         </a>
         <nav id="navbar">
           <a href="#"> MENU <i class="fa-solid fa-bars"></i></a>
         </nav>
       </div>
       <div class="container">
-        <h1>Hi, my name is Forty</h1>
+        <h1>Hi, my name is Rasiol</h1>
         <hr />
-        <div>
+        <div class="flex-column">
           <p>
-            A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP AND RELEASED UNDER
-            THE CREATIVE COMMONS.
+            I DESIGN RESPONSIVE WEBSITES WITH HTML, CSS & JAVASCRIPT. CHECK OUT
+            SOME OF MY PROJECTS
           </p>
-          <button class="btn">
-            GET STARTED <i class="fa-solid fa-right-long"></i>
-          </button>
+          <a href="#persons" class="btn" id="startBtn">
+            PROJECTS <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
         </div>
       </div>
     </div>
     <main>
       <!-- Section Persons -->
-      <div class="persons flex-items">
-        <div class="column column-1" id="project1">
-          <a href="#" class="content">
-            <h3>Aliquam</h3>
-            <hr />
-            <p>IPSUM DOLOR SIT AMET</p>
-          </a>
-        </div>
-        <div class="column column-2">
-          <div class="content">
-            <h3>Aliquam</h3>
-            <hr />
-            <p>IPSUM DOLOR SIT AMET</p>
+      <section id="persons">
+        <div class="persons flex-items">
+          <div class="column column-1">
+            <a
+              href="https://rasiolisufaj.github.io/todo-list/"
+              class="content project1-link"
+              target="_blank"
+            >
+              <h3>Todo List</h3>
+              <hr />
+              <p>SMALL TODO LIST BUILT WITH JS</p>
+            </a>
+          </div>
+          <div class="column column-2">
+            <a
+              href="https://rasiolisufaj.github.io/mln-university/"
+              target="_blank"
+              class="content project2-link"
+            >
+              <h3>University Website</h3>
+              <hr />
+              <p>UNIVERSITY WEBSITE DESIGNED WITH HTML & CSS</p>
+            </a>
           </div>
         </div>
-      </div>
+        <div class="persons flex-items">
+          <div class="column column-3">
+            <a
+              href="https://rasiolisufaj.github.io/typing-app/"
+              class="content project3-link"
+              target="_blank"
+            >
+              <h3>Typing Up</h3>
+              <hr />
+              <p>LEARN TO TYPE FASTER WITH MY TYPING APP</p>
+            </a>
+          </div>
+          <div class="column column-4">
+            <a
+              href="https://rasiolisufaj.github.io/interactive-ninja-quiz/"
+              target="_blank"
+              class="content project4-link"
+            >
+              <h3>Ninja Quiz</h3>
+              <hr />
+              <p>INTERACTIVE NINJA QUIZZ BUILT WITH JS</p>
+            </a>
+          </div>
+        </div>
+        <div class="persons flex-items">
+          <div class="column column-5">
+            <a href="landing.html" class="content project5-link">
+              <h3>Consequat</h3>
+              <hr />
+              <p>IPSUM DOLOR SIT</p>
+            </a>
+          </div>
+          <div class="column column-6">
+            <a href="landing.html" class="content project6-link">
+              <h3>Etiam</h3>
+              <hr />
+              <p>FEUGIAT AMET TEMPUS</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Massa libero -->
+      <section id="massa-libero">
+        <div class="container">
+          <h3>Massa libero</h3>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+            repellendus veniam fugit suscipit vel nulla mollitia, nostrum illo
+            aperiam quibusdam! Sunt possimus quis omnis sapiente officia, qui
+            repudiandae doloremque, rerum natus ratione, ipsam error numquam
+            temporibus iusto? Vero quasi, nihil aspernatur quas facilis
+            repellendus nulla! Recusandae aspernatur dolorem provident et?
+          </p>
+          <button class="btn">
+            GET STARTED <i class="fa-solid fa-right-long"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact">
+        <div id="form">
+          <form action="">
+            <div class="row-1">
+              <div class="form-column">
+                <label for="name">NAME</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="form-column">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" />
+              </div>
+            </div>
+            <div class="form-message form-column">
+              <label for="message">MESSAGE</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="50"
+                rows="5"
+              ></textarea>
+            </div>
+            <div class="row-2">
+              <button class="btn btn-light">SEND MESSAGE</button>
+              <button class="btn">CLEAR</button>
+            </div>
+          </form>
+        </div>
+        <div id="info">
+          <div id="email" class="py-1">
+            <div class="info-left ml-1">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="info-right">
+              <h3>Email</h3>
+              <p>information@united.tld</p>
+            </div>
+          </div>
+          <div id="phone" class="py-1">
+            <div class="info-left ml-1">
+              <i class="fa-solid fa-phone-flip"></i>
+            </div>
+            <div class="info-right">
+              <h3>Phone</h3>
+              <p>(000) 000-0000 921</p>
+            </div>
+          </div>
+          <div id="address" class="py-1">
+            <div class="info-left ml-1">
+              <i class="fa-solid fa-house-chimney"></i>
+            </div>
+            <div class="info-right">
+              <h3>Address</h3>
+              <p>1234 Somewhere Road #5432</p>
+              <p>Nasheville, TN 002152</p>
+              <p>United States Of America</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons">
+          <li>
+            <a href="https://twitter.com" target="_blank" class="icons_light"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://facebook.com" target="_blank" class="icons_light"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank" class="icons_light"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com" target="_blank" class="icons_light"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank" class="icons_light"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>© Untitled</li>
+          <li>
+            Design:
+            <a href="#">HTML5 UP</a>
+          </li>
+          <li>
+            Demo Images:
+            <a href="https://www.unsplash.com" target="_blank">Unsplash</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>

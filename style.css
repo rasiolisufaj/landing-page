@@ -172,7 +172,8 @@ hr {
 
 .column-1,
 .column-4,
-.column-5 {
+.column-5,
+.column-8 {
   width: 40%;
   height: 50vh;
   color: #fff;
@@ -180,7 +181,8 @@ hr {
 
 .column-2,
 .column-3,
-.column-6 {
+.column-6,
+.column-7 {
   width: 60%;
   height: 50vh;
   color: #fff;
@@ -271,6 +273,21 @@ hr {
 
 .project6-link {
   background-color: rgba(135, 197, 164, 0.8);
+}
+
+.persons .column-7 {
+  background: url("./images/pic07.jpg") no-repeat center center/cover;
+}
+
+.project7-link {
+  background-color: rgba(231, 183, 136, 0.8);
+}
+
+.persons .column-8 {
+}
+
+.project8-link {
+  background-color: rgba(236, 141, 129, 0.8);
 }
 
 /* Massa libero */
